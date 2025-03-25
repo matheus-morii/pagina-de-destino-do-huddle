@@ -1,0 +1,63 @@
+@media(max-width: 715px){
+    body{
+        background: url(../images/bg-mobile.svg)  no-repeat;
+        background-color:  hsl(257, 40%, 49%);
+        background-size: 100vw;
+    }
+
+    .header{
+        padding: 30px 35px;
+    }
+    
+    .header .logo{
+        width: 120px;
+    }
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 22px;
+        padding: 0 35px;
+    }
+
+    .main .img-principal{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .main .info-btn{
+        padding-right: 0px;
+    }
+
+    .main .titulo{
+        font-size: 23px;
+        line-height: 35px;
+        margin-top: 60px;
+        padding-right: 0;
+        padding: 0 10px;
+    }
+
+    .main .btn-registre{
+        padding: 10px 72px;
+        font-size: 12px;
+        margin-top: 21px;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .footer .icones{
+        margin-top: 45px;
+    }
+
+    .footer .icones .icon{
+        width: 28px;
+        height: 28px;
+    }
+
+    .footer .icones .icon i{
+        font-size: 14px;
+    }
+}
